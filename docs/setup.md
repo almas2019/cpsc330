@@ -74,4 +74,18 @@ A virtual environment is a Python environment such that the Python interpreter, 
 		deactivate
 		```
 	For more information on `virtualenv`, see [here](https://virtualenv.pypa.io/en/latest/index.html).
+
+### Steps to enable canvas utitlity
+
+Activate the virtual environment, then run the following commands
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension update --all 
+jupyter lab build
+```
+
+### Git
+
+Please also see the [git setup instructions](https://github.com/UBC-CS/cpsc330/blob/master/docs/git_installation.md) as you will need git as well for the course.
+
 		
